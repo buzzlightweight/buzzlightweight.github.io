@@ -94,8 +94,33 @@ form button {
 	padding: 1rem 8.5rem;
 	border: none;
 	margin-top: 1rem;
+	transition: .25s;
 }
 
+form button:hover {
+	background: #898989;
+	transition: .25s;
+}
+
+svg {
+	height: 6rem;
+	width: 6rem;
+	transition: .25s;
+}
+
+.socialicons {
+	text-align: center;
+	margin: 2rem;
+}
+
+.socialicons svg:hover {
+	fill: #898989;
+	transition: .25s;
+}
+
+.socialicons a {
+	text-decoration: none;
+}
 
 .clear {
 	clear: both;
@@ -151,7 +176,15 @@ form button {
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
+	transition: .25s;
 }
+
+.parallax a:hover {
+	background-color: #CC1E32;
+	transition: .25s;
+
+}
+
 
 .wrapper {
 	font-size: 18px;
@@ -284,9 +317,6 @@ form button {
 		width: 75%;
 	}
 
-	iframe {
-		height: 40rem;
-	}
 
 }
 
@@ -297,9 +327,7 @@ form button {
   .flexbox div {
   	padding: .9rem .8rem;
   }
-  	iframe {
-		height: 35rem;
-	}
+
 }
 
 @media only screen and (max-width: 650px) {
@@ -316,8 +344,6 @@ form button {
 	font-size: 1.4rem;
 	max-width: 85%;
   }
-    	iframe {
-		height: 30rem;
-	}
+
 }
 
